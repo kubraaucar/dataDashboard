@@ -1,6 +1,6 @@
 streamlit==1.45.0
 pandas==1.5.3
 plotly==6.0.1
-matplotlib==3.10.1
+matplotlib==3.7.2
 XlsxWriter==3.2.3
 kaleido==0.2.1
