@@ -4,5 +4,3 @@ headless = true
 [theme]
 base = "light"
 
-[runtime]
-python_version = "3.11"
