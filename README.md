@@ -1,20 +1,32 @@
----
-sdk: streamlit
-sdk_version: 1.45.1
----
+# Interaktif Veri Dashboard
 
----
-title: Datadashboard1
-emoji: 🐢
-colorFrom: yellow
-colorTo: red
-sdk: gradio
-sdk_version: 5.31.0
-app_file: app.py
-pinned: false
-license: apache-2.0
----
+Bu proje, kullanıcıların CSV formatındaki verilerini hızlı ve sezgisel bir şekilde analiz edebilmesini sağlayan, Streamlit tabanlı etkileşimli bir web uygulamasıdır.
 
+## Ekran Görüntüsü
 
+![Uygulama Görseli](screenshot.png.jpg)
 
-##### https://kuubraucar1-datadashboard1.hf.space
+## Özellikler
+
+- CSV dosyası yükleyerek veri analizi başlatma  
+- Veri önizleme ve temel istatistikleri görüntüleme  
+- Eksik verileri analiz etme ve doldurma (mean, median, mode)  
+- Aykırı değer analizi (IQR yöntemine göre)  
+- Bar, Line, Scatter, Pie, Histogram grafik türlerini seçerek veri görselleştirme  
+- Temizlenmiş veriyi indirme (CSV, Excel, JSON)  
+- Seçilen grafiği PNG olarak dışa aktarma  
+
+## Canlı Uygulama
+
+Uygulamayı hemen tarayıcınızdan çalıştırabilirsiniz:
+
+[Hugging Face Spaces Üzerinde Uygulama](https://kuubraucar1-datadashboard1.hf.space/)
+
+## Kullanılan Teknolojiler
+
+- Python 3.11+
+- Streamlit
+- Plotly
+- Matplotlib
+- Pandas
+- Hugging Face Spaces
